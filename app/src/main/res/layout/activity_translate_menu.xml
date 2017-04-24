@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.enib.lesbg.tradsign.TranslateMenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <!--<TextView
+            android:id="@+id/TranslatMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/TranslatModeText"
+            android:textSize="17sp"/> -->
+
+        <RadioGroup
+            android:id="@+id/TranslatModeRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:checkedButton="@+id/gifBut">
+
+            <RadioButton
+                android:id="@+id/gifBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gifMode" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/animate2DMode" />
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/TranslatModeRadioGroup"
+            android:layout_marginTop="50dp"
+            android:inputType="text"
+            android:lines="1"
+            android:hint="@string/translatEditTextHint" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

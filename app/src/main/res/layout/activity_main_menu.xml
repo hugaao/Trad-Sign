@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.enib.lesbg.tradsign.MainMenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/TranslatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/GameButton"
+            android:layout_alignEnd="@+id/GameButton"
+            android:layout_above="@+id/GameButton"
+            android:layout_marginBottom="75dp"
+            android:text="@string/tranBut" />
+
+        <Button
+            android:id="@+id/GameButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_centerInParent="true"
+            android:text="@string/gameBut" />
+
+        <Button
+            android:id="@+id/ParamButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/GameButton"
+            android:layout_alignEnd="@id/GameButton"
+            android:layout_below="@id/GameButton"
+            android:layout_marginTop="75dp"
+            android:text="@string/paramBut" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

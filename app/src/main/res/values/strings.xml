@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Trad\'sign</string>
+    <string name="paramBut">Paramètres</string>
+    <string name="gameBut">Jouer</string>
+    <string name="tranBut">Traduire</string>
+
+    <string name="translatModeText">Mode de traduction :</string>
+    <string name="gifMode">GIF</string>
+    <string name="animate2DMode">Animation 2D</string>
+    <string name="translatEditTextHint">Mot à traduire</string>
+
+    <string name="validate">Valider</string>
+</resources>
